@@ -11,8 +11,6 @@ Journey é uma aplicação web desenvolvida com Java 21 e Spring Boot, projetada
 - **Java 21**: Linguagem de programação utilizada para o desenvolvimento da aplicação.
 - **Spring Boot**: Framework utilizado para simplificar o desenvolvimento de aplicações Java.
 - **Spring Data JPA**: Para manipulação e persistência de dados.
-- **Spring Security**: Para autenticação e autorização de usuários.
-- **Thymeleaf**: Motor de template para renderização de páginas HTML.
 - **H2 Database**: Banco de dados em memória para testes e desenvolvimento.
 
 ## Funcionalidades
