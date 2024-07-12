@@ -1,0 +1,340 @@
+{
+	"info": {
+		"_postman_id": "992d02ed-6baa-4a1f-94f2-236e44c2696e",
+		"name": "Planner",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30368521"
+	},
+	"item": [
+		{
+			"name": "Recupera Detalhes da Viagem",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"destination\": \"Florianópolis, SC\",\n  \"starts_at\": \"2024-06-25T21:51:54.7342\",\n  \"ends_at\": \"2024-06-25T21:51:54.7342\",\n  \"emails_to_invite\": [\"mayk.brito@rocketseat.com\"],\n  \"owner_name\": \"Fernanda Kipper\",\n  \"owner_email\": \"fernanda.kipper@rocketseat.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/trips/967ffa0e-8e14-4d6b-adfe-13d9bdd6016d",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"trips",
+						"967ffa0e-8e14-4d6b-adfe-13d9bdd6016d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Recupera Participantes da Viagem",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"destination\": \"Florianópolis, SC\",\n  \"starts_at\": \"2024-06-25T21:51:54.7342\",\n  \"ends_at\": \"2024-06-25T21:51:54.7342\",\n  \"emails_to_invite\": [\"mayk.brito@rocketseat.com\"],\n  \"owner_name\": \"Fernanda Kipper\",\n  \"owner_email\": \"fernanda.kipper@rocketseat.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/trips/d0da52cf-d355-4dc4-bfe7-d49097105e2b/participants",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"trips",
+						"d0da52cf-d355-4dc4-bfe7-d49097105e2b",
+						"participants"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Recupera Atividades da Viagem",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"destination\": \"Florianópolis, SC\",\n  \"starts_at\": \"2024-06-25T21:51:54.7342\",\n  \"ends_at\": \"2024-06-25T21:51:54.7342\",\n  \"emails_to_invite\": [\"mayk.brito@rocketseat.com\"],\n  \"owner_name\": \"Fernanda Kipper\",\n  \"owner_email\": \"fernanda.kipper@rocketseat.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/trips/d0da52cf-d355-4dc4-bfe7-d49097105e2b/activities",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"trips",
+						"d0da52cf-d355-4dc4-bfe7-d49097105e2b",
+						"activities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Recupera Links da Viagem",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"destination\": \"Florianópolis, SC\",\n  \"starts_at\": \"2024-06-25T21:51:54.7342\",\n  \"ends_at\": \"2024-06-25T21:51:54.7342\",\n  \"emails_to_invite\": [\"mayk.brito@rocketseat.com\"],\n  \"owner_name\": \"Fernanda Kipper\",\n  \"owner_email\": \"fernanda.kipper@rocketseat.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/trips/d0da52cf-d355-4dc4-bfe7-d49097105e2b/links",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"trips",
+						"d0da52cf-d355-4dc4-bfe7-d49097105e2b",
+						"links"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Confirma Viagem",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"destination\": \"Florianópolis, SC\",\n  \"starts_at\": \"2024-06-25T21:51:54.7342\",\n  \"ends_at\": \"2024-06-25T21:51:54.7342\",\n  \"emails_to_invite\": [\"mayk.brito@rocketseat.com\"],\n  \"owner_name\": \"Fernanda Kipper\",\n  \"owner_email\": \"fernanda.kipper@rocketseat.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/trips/967ffa0e-8e14-4d6b-adfe-13d9bdd6016d/confirm",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"trips",
+						"967ffa0e-8e14-4d6b-adfe-13d9bdd6016d",
+						"confirm"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Confirma Participante",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Joao\"\n}\n ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/participants/ed48a553-04c6-47a6-8a99-e056ccc80542/confirm",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"participants",
+						"ed48a553-04c6-47a6-8a99-e056ccc80542",
+						"confirm"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Convida Participante",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \"joaomicis59@gmail.com\"\n}\n ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/trips/399682b7-1b12-42fd-9672-1dd679aa9f3d/invite",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"trips",
+						"399682b7-1b12-42fd-9672-1dd679aa9f3d",
+						"invite"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Criação Viagem",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"destination\": \"Florianópolis, SC\",\n  \"starts_at\": \"2024-06-25T21:51:54.7342\",\n  \"ends_at\": \"2024-06-25T21:51:54.7342\",\n  \"emails_to_invite\": [\"mayk.brito@rocketseat.com\", \"joaomicis59@gmail.com\"],\n  \"owner_name\": \"Fernanda Kipper\",\n  \"owner_email\": \"fernanda.kipper@rocketseat.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/trips",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"trips"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Registra Atividade",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"Visita ao Cristo Redentor\",\n    \"occursAt\": \"2024-06-23T21:51:54.7342\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/trips/47efbdf2-3c8a-4928-8587-e12b5adbf084/activities",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"trips",
+						"47efbdf2-3c8a-4928-8587-e12b5adbf084",
+						"activities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Registra Link",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"Link do Trem do Corcovado\",\n    \"url\": \"https://www.tremdocorcovado.rio/\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/trips/47efbdf2-3c8a-4928-8587-e12b5adbf084/links",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"trips",
+						"47efbdf2-3c8a-4928-8587-e12b5adbf084",
+						"links"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Atualização Viagem",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"destination\": \"Recife, PE\",\n  \"starts_at\": \"2024-06-25T21:51:54.7342\",\n  \"ends_at\": \"2024-06-25T21:51:54.7342\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/trips/967ffa0e-8e14-4d6b-adfe-13d9bdd6016d",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"trips",
+						"967ffa0e-8e14-4d6b-adfe-13d9bdd6016d"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
